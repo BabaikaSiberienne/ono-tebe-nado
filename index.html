@@ -12,9 +12,9 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit header__link_active">главная</li>
-          <li class="header__links-list-item header__link">посмотреть лоты</li>
-          <li class="header__links-list-item header__link">об аукционе</li>
+          <li class="header__links-list-item_no-bullit header__link_active"><a href="">главная</a></li>
+          <li class="header__links-list-item header__link"><a href="">посмотреть лоты</a></li>
+          <li class="header__links-list-item header__link"><a href="">об аукционе</a></li>
         </ul>
       </nav>
       <a class="header__logo">
@@ -24,12 +24,23 @@
         <ul class="">
           <li class=""><a href="tel:+9 999 555 5555">+9 999 555 5555</a></li>
           <li class=""><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
-          <li class=""><address>наб. Принсенграхт 263-265, Амстердам</address></li>
+          <li class=""><address class="address">наб. Принсенграхт 263-265,<br>Амстердам</address></li>
         </ul>
       </div>
     </header>
     <main class="main">
-      <section class="cover"></section>
+      <section class="cover">
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text">О<span class="letter-spacing-extended">но</span></span>
+          <span class="aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+          <span class="aligned-text_right">н<span class="letter-spacing-extended">ад</span><span class="no-letter-spacing">о</span></span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
+          <button class="bet-button">Сделать ставку</button>
+        </div>
+      </section>
       <section class="lots"></section>
       <section class="about"></section>
     </main>
