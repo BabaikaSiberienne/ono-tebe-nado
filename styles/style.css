@@ -6,10 +6,7 @@ body {
   padding: 0;
 }
 
-.main {
 
-
-}
 
 .header {
   width: 100%;
@@ -112,8 +109,6 @@ body {
 .aligned-text {
   letter-spacing: 30px;;
   position: relative;
-
-
 }
 
 .aligned-text_center {
@@ -123,8 +118,6 @@ body {
   top: 10px;
 
 }
-
-
 
 .aligned-text_right {
   display: flex;
@@ -137,7 +130,6 @@ body {
 .letter-spacing-extended {
   letter-spacing: 60px;
 }
-
 
 
 .no-letter-spacing {
@@ -368,9 +360,6 @@ body {
 
 }
 
-.footer__menu-list-item {
-
-}
 
 .footer__menu-link {
   border-bottom: 1px black solid;
@@ -393,9 +382,6 @@ body {
 
 }
 
-.footer__social-link {
-
-}
 
 .footer__social-icon {
   width: 80px;
