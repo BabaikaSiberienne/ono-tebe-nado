@@ -116,7 +116,7 @@ body {
 
 .aligned-text {
   letter-spacing: 30px;
-  padding-top: px;
+
 }
 
 .aligned-text_center {
@@ -129,7 +129,7 @@ body {
 .aligned-text_right {
   display: flex;
   justify-content: end;
-  padding-bottom: 0px;
+
 
 
 }
@@ -339,7 +339,6 @@ body {
 
   padding-left: 20px;
   padding-right: 50px;
-  /* padding-top: 40px; */
   margin-bottom: 190px;
 }
 
@@ -352,7 +351,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   column-gap: 140px;
-  /* margin-bottom: 90px; */
+  margin-bottom: 80px;
 }
 
 .footer__menu {
@@ -361,7 +360,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  /* margin: 0 50px; */
+
 
 }
 
